@@ -22,7 +22,9 @@ siguiente comando:
 sudo sh -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
 ```
 compilamos y ejecutamos el programa mem.c, que nos permite evidenciar
- como podemos crear dos procesos que apuntan a la misma dirección en memoria pero que acceden a diferentes valores
+ como podemos crear dos procesos que apuntan a la misma dirección en memoria
+ pero que acceden a diferentes valores
+
 Lo ejecutamos
 ```
 ./mem (número) & ./(número)
