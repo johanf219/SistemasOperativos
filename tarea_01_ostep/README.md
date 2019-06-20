@@ -13,10 +13,12 @@ la siguiente actividad tiene como proposito evidenciar de una manera mas
 * [cpu.c](cpu.c)
 * [tarea.txt](tarea.txt)
 
-1.mem.c :
+mem.c :
+
  Lo que se hizo en este programa fue una virtualización en memoria de
  procesos, para lograr esto se siguieron los siguientes pasos:
-1.2.Desactivamos la generación aleatoria de espacios de memoria a traves del 
+
+Desactivamos la generación aleatoria de espacios de memoria a traves del 
 siguiente comando:
 ```
 sudo sh -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
@@ -29,7 +31,8 @@ Lo ejecutamos
 ```
 ./mem (número) & ./(número)
 ```
-2.threads.c:
+threads.c:
+
 Lo que se hizo en este punto fue añadir la funcionalidad de unas "puertas" a
  los hilos que habíamos creado en este programa, por la razón de que al no
  existir  dichas puertas, La concurrencia de los hilos al acceder al mismo
@@ -43,7 +46,8 @@ Lo ejecutamos
 ```
 ./threads (valor)
 ```
-3.Io.c :
+Io.c :
+
  Este programa se encarga de invertir el texto que hayamos guardado
  previamente en un archivo de este mismo tipo y recibe como entrada el nombre
  de este
