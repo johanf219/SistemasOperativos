@@ -13,7 +13,7 @@ la siguiente actividad tiene como proposito evidenciar de una manera mas
 * [cpu.c](cpu.c)
 * [tarea.txt](tarea.txt)
 
-mem.c :
+## mem.c :
 
  Lo que se hizo en este programa fue una virtualización en memoria de
  procesos, para lograr esto se siguieron los siguientes pasos:
@@ -31,7 +31,7 @@ Lo ejecutamos
 ```
 ./mem (número) & ./(número)
 ```
-threads.c:
+## threads.c:
 
 Lo que se hizo en este punto fue añadir la funcionalidad de unas "puertas" a
  los hilos que habíamos creado en este programa, por la razón de que al no
@@ -46,7 +46,7 @@ Lo ejecutamos
 ```
 ./threads (valor)
 ```
-Io.c :
+## io.c :
 
  Este programa se encarga de invertir el texto que hayamos guardado
  previamente en un archivo de este mismo tipo y recibe como entrada el nombre
