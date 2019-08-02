@@ -7,9 +7,9 @@ En este punto evidenciamos el tiempo que toma la ejecución de la función threa
 
 ### cerrando la puerta antes del bucle y abriendo después del mismo
 
-![picture](Música/parte1.png)
+![home](Música/parte1.png)
 
 ### cerrando la puerta dentro del bucle y abriendo dentro del mismo
-![picture](Música/parte2.png)
+![home](Música/parte2.png)
 
  
